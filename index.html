@@ -5,12 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather API Demo</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+          crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
+    <div class="container-fluid">
+        <div class="row fixed-top">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <span class="navbar-brand mb-0 mx-auto h1" id="topBar">Weather Dashboard</span>                   
+                </nav>
+            </div>
+        </div>
     
-    
+        <div class="row justify-content-start">
+            <div class="col-3">
+                <div class="card bg-dark text-white" id="searchDiv">
+                    <div class="card-body">
+                        <h5 class="card-title">Search for a city:</h5>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 location" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-danger my-2 my-sm-0" id="searchBtn" type="submit">Search</button>
+                        </form>
+                        <div class="card-body" id="localRecall">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="card">
+                    <div class="card-body" id="resultsDiv">
+                        <h1>City Name:</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cols-6">
+            <div class="col-2">
+                <div class="card fiveDay bg-danger d-none" id="forcastTitle">
+                    <div class="card-body justify-content-center">
+                        <h4 class="card-title">5 day forcast:</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card fiveDay bg-dark d-none text-white">
+                    <div class="card-body" id="dayOne">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card fiveDay bg-dark d-none text-white ">
+                    <div class="card-body" id="dayTwo">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card fiveDay bg-dark d-none text-white">
+                    <div class="card-body" id="dayThree">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card fiveDay bg-dark d-none text-white">
+                    <div class="card-body" id="dayFour">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card fiveDay bg-dark d-none text-white">
+                    <div class="card-body" id="dayFive">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

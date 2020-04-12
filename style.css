@@ -1,0 +1,21 @@
+.fiveDay {
+    margin-top: 2rem;
+}
+
+#topBar {
+    min-height: 6.5rem;
+    font-size: 50px;
+}
+
+#searchDiv {
+    margin-top: 10rem;
+   
+}
+
+#resultsDiv {
+    margin-top: 10rem;
+}
+
+#forcastTitle {
+   min-height: 12.5rem;
+}
