@@ -16,3 +16,5 @@ It allows you to search cities by name to find out:
 
 It also uses local storage to keep previously searched cities visible under the search bar.
 
+To see it for yourself, simply follow this link: https://c1dechand.github.io/BC-Homework06/
+
