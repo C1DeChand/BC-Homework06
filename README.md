@@ -1,20 +1,17 @@
 # BC-Homework06
 
-Weather API Demo Application
+## Weather API Demo Application:
 
-Using HTML, CSS, JavaScript and jQuery in concert with the OpenWeatherMap API, I give you:
+This simple weather app uses the OpenWeatherMap API to collect the current weather for any city you search. NOTE: This assumes that the city is monitered by the API to begin with. Once a city is searched it will display the current and 5 day forcasts for that city.
 
-The Weather Dashboard!
+## Breakdown:
 
-It allows you to search cities by name to find out:
-1. The current weather there.
-2. The current tempreture.
-3. The humidity.
-4. The wind speed.
-5. The UV index.
-6. And the next 5 day forcast.
+1. On page load, you will see a search box.
+2. Simply type in the name of a city you would like to get the current forcast for.
+3. It will also display the next 5 day forcast for that city.
+4. All searches are saved below the search box for quick reference.
 
-It also uses local storage to keep previously searched cities visible under the search bar.
+## Link: 
 
-To see it for yourself, simply follow this link: https://c1dechand.github.io/BC-Homework06/
+https://c1dechand.github.io/BC-Homework06/
 
